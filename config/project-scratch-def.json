@@ -1,13 +1,37 @@
 {
     "orgName": "Dreamhouse",
     "edition": "Developer",
-    "features": ["Walkthroughs", "EnableSetPasswordInApi"],
+    "features": [
+        "Walkthroughs",
+        "EnableSetPasswordInApi",
+        "EINSTEIN1AIPLATFORM",
+        "SecurityEventEnabled",
+        "Communities",
+        "PlatformCache"
+    ],
     "settings": {
         "lightningExperienceSettings": {
             "enableS1DesktopEnabled": true
         },
         "mobileSettings": {
             "enableS1EncryptedStoragePref2": false
+        },
+        "pathAssistantSettings": {
+            "pathAssistantEnabled": true
+        },
+        "eventSettings": {
+            "enableTransactionSecurityPolicies": true,
+            "eventLogRetentionDuration": 30,
+            "enableEventLogGeneration": true
+        },
+        "communitiesSettings": {
+            "enableNetworksEnabled": true
+        },
+        "experienceBundleSettings": {
+            "enableExperienceBundleMetadata": true
+        },
+        "userEngagementSettings": {
+            "enableOrchestrationInSandbox": true
         }
     }
 }
